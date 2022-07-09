@@ -28,9 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Uzzal Datta</span>
           <span>
-            Frontend Developer with high level of experience in web designing
+          Web Application Developer (MERN Stack) with high level of experience in web designing
             and development, producting the Quality work
           </span>
         </div>
@@ -38,11 +38,7 @@ const Intro = () => {
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
-        <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
-        </div>
+        
       </div>
       {/* right image side */}
       <div className="i-right">
